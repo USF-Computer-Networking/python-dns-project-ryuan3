@@ -1,8 +1,13 @@
+'''
+name: python dns query
+author: ruiling yuan
+version: 1.0
+language: python 2.7
+
+'''
+
 from argparse import ArgumentParser
 import sys,socket  
-#import dns.reversename
-#import dns.resolver
-
 
 
 def gethost(args):
